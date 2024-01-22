@@ -1,0 +1,80 @@
+
+.sidebarWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffffff; 
+  }
+  
+  .sidebarHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #c0bcbc; 
+  }
+  
+  .sidebar {
+    width: 240px;
+    height: 100%;
+    background: #a8d5e5; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .menuItem {
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    color: #131212;
+    text-decoration: none;
+  }
+  .hamburgerMenu{
+    cursor: pointer;
+    border: none;
+    padding: 10px 0;
+    margin-left: 10px;
+    background: none;
+  }
+  
+  .LogOutmenuItem {
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #131212;
+    text-decoration: none;
+    margin-top: 150%;
+  }
+  
+  
+  .menuItem:hover {
+    background: #506bd3; 
+    transition: background-color 0.3s;
+  }
+  
+  .menuItem.active {
+    background-color: #334c91; 
+    transition: background-color 0.3s;
+  }
+  
+  .subMenuItem {
+    padding: 5px 0px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .subMenuItem:hover {
+    background-color: #f0f0f0; 
+  }
+  
+  .subMenuItem.active {
+    background-color: #e6e6e6; 
+  }
+  
+  .link {
+    text-decoration: none;
+    color: inherit;
+  
+  }
+  .link:hover {
+    text-decoration: underline; 
+  }

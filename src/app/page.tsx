@@ -1,17 +1,15 @@
-import styles from './page.module.css'
-import Switch from "@mui/material/Switch";
+import * as React from 'react';
+import Switch from '@mui/material/Switch';
 
-const label = { inputProps: { "aria-label": "Switch demo" } };
+const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className={styles.container}>
-      <div>
-        <span>With default Theme:</span>
-      </div>
+    <div>
       <Switch {...label} defaultChecked />
       <Switch {...label} />
       <Switch {...label} disabled defaultChecked />
+      <Switch {...label} disabled />
     </div>
   );
 }
