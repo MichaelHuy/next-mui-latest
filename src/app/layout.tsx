@@ -17,12 +17,12 @@ export default function RootLayout({ children }: any) {
     <html lang="en">
       <body className={inter.className} style={{ margin: 0, padding: 0 }}>
         <ThemeRegistry options={{ key: 'hoangduc' }}>
-          {/* <SideMenuMUI>
+          <SideMenuMUI>
             {children}
-          </SideMenuMUI> */}
-          <SideMenuPro>
+          </SideMenuMUI>
+          {/* <SideMenuPro>
             {children}
-          </SideMenuPro>
+          </SideMenuPro> */}
         </ThemeRegistry>
       </body>
     </html>

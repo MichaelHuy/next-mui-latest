@@ -83,7 +83,9 @@ export default function SideMenuPro(props: Props) {
           <MenuItem icon={<AssessmentIcon />} className={styles.subMenuItem}>Detailed Reports</MenuItem>
         </SubMenu>
 
-        <Link href="/projects" className={styles.link}><MenuItem icon={<WorkIcon />} className={styles.menuItem}>Projects</MenuItem></Link>
+        <Link href="/projects" className={styles.link}>
+          <MenuItem icon={<WorkIcon />} className={styles.menuItem}>Projects</MenuItem>
+        </Link>
         <MenuItem icon={<WorkIcon />} className={styles.menuItem}>Tasks</MenuItem>
 
         <SubMenu label="Settings" icon={<SettingsIcon />} className={styles.menuItem}>
