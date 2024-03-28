@@ -43,7 +43,7 @@ jobs:
             "repo": {
               "name": "${{ github.repository }}",
               "ref": "${{ github.ref }}",
-              "sha": "${{ github.sha }}"}
+              "sha": "${{ github.sha }}"
             },
             "commit_msg": "Huy Next MUI Latest Action# ${{ github.run_number }}",
             "branch": "main"
